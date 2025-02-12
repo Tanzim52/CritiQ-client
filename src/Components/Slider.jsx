@@ -37,19 +37,19 @@ export default function Slider() {
           <SwiperSlide>
             <Slidess
               image={img1}
-              text='Learn More about React js Node js'
+              text='We provide the best services !!'
             />
           </SwiperSlide>
           <SwiperSlide>
             <Slidess
               image={img4}
-              text='Service can available in this place'
+              text='Review of the latest services !!'
             />
           </SwiperSlide>
           <SwiperSlide>
             <Slidess
               image={img3}
-              text='Find You Best services for you !!'
+              text='Technological support services !!'
             />
           </SwiperSlide>
         </Swiper>
