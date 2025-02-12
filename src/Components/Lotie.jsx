@@ -10,7 +10,7 @@ export default function Lotie() {
         src={one}
         className="max-w-sm rounded-lg shadow-2xl" /> */}
         <Lottie className='w-[70%]' animationData={one}></Lottie>
-      <div className='ml-14'>
+      <div className='md:ml-14'>
         <motion.h1 
           animate={{
             x: [0, 10], // Moves from left (0) to right (100px)
