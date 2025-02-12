@@ -13,9 +13,7 @@ export default function Home() {
 
   return (
     <div className='my-20'>
-     <Helmet>
-      <title>CritiQQQ</title>
-     </Helmet>
+     
       {/* photo anr write moving */}
       {/* <Pagination /> */}
       {/* carousal */}

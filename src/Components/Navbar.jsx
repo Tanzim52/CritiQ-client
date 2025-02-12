@@ -87,7 +87,7 @@ export default function Navbar() {
         <img src="../assets/DALL·E 2025-01-29 17.33.29 - A minimalistic logo designed for favicon use, featuring a sleek combination of the primary color #3D405B (dark grayish blue) and the secondary color #.webp" alt="" />
         <NavLink
           to="/"
-          className="btn bg-[#3D405B] text-white px-4 btn-sm text-lg uppercase font-bold hover:bg-lime-300 hover:text-black"
+          className="btn bg-[#3D405B] text-white px-4 btn-sm text-lg font-bold hover:bg-lime-300 hover:text-black"
         >
           CritiQ
         </NavLink>
@@ -97,19 +97,19 @@ export default function Navbar() {
           {user ? afterLogin : beforeLogin}
           {user && (
             <li>
-              <details>
-                <summary>
+              <div>
+                <div>
                   <div className="avatar">
                     <div title={user?.displayName} className="w-10 rounded-full">
                       <img
                         src={user?.photoURL}
                         alt="User Avatar"
-                        referrerPolicy="no-referrer"
+                        // referrerPolicy="no-referrer"
                       />
                     </div>
                   </div>
-                </summary>
-              </details>
+                </div>
+              </div>
             </li>
           )}
         </ul>
@@ -129,8 +129,8 @@ export default function Navbar() {
               {user ? afterLogin : beforeLogin}
               {user && (
                 <li>
-                  <details>
-                    <summary>
+                  <div>
+                    <div>
                       <div className="avatar">
                         <div title={user?.displayName} className="w-10 rounded-full">
                           <img
@@ -140,8 +140,8 @@ export default function Navbar() {
                           />
                         </div>
                       </div>
-                    </summary>
-                  </details>
+                    </div>
+                  </div>
                 </li>
               )}
             </ul>

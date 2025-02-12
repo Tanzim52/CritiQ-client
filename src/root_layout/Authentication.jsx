@@ -6,7 +6,7 @@ import { Outlet } from 'react-router-dom'
 export default function Authentication() {
   return (
     <div>
-       <div className='bg-black'>
+       <div className='bg-[#3D405B]'>
         <header className='w-11/12 mx-auto z-50  top-0 sticky    '>
           {/* this is navbar */}
          

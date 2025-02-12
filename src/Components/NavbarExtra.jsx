@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom'
 export default function NavbarExtra() {
   return (
     <>
-    <div className='bg-black'>
+    <div className='bg-[#3D405B]'>
     <div className='w-11/12 mx-auto'>
     <div className="navbar ">
-    <div className="flex-1 flex items-center gap-2 bg-black text-white">
+    <div className="flex-1 flex items-center gap-2 bg-[#3D405B] text-white">
         {/* Logo */}<SiBackendless className="text-lime-300 text-5xl ml-16 "  />
      
         <Link to="/" className="btn btn-ghost text-2xl uppercase font-bold ">
