@@ -1,7 +1,8 @@
 import React from 'react'
-import one from '../assets/one.json'
+import one from '../assets/Animation - 1739359357875.json'
 import Lottie from "lottie-react";
 import { motion } from "motion/react"
+import { Link } from 'react-router-dom';
 export default function Lotie() {
   return (
     <div className="hero bg-gray-50 rounded-xl min-h-scree my-10">
@@ -22,13 +23,10 @@ export default function Lotie() {
             repeat: Infinity, // Loop the animation
             repeatType: "reverse", // Reverse the animation
           }}
-          className="text-5xl font-bold">Today's Backend Service!</motion.h1>
-        <p className="py-6 text-gray-600">
-     
-
-Backend Forge provides cutting-edge backend development services today, offering businesses scalable, secure, and efficient solutions that drive performance.
+          className="text-5xl font-bold">CritiQ Server – Powering Reliable Reviews</motion.h1>
+        <p className="py-6 text-gray-600">The CritiQ Server is designed to deliver a seamless and efficient experience, handling user authentication, service management, and reviews with speed and security. Built with Node.js, Express, MongoDB, and JWT authentication, it ensures a scalable and reliable backend that keeps CritiQ running smoothly. 
         </p>
-        <button className="btn bg-lime-400 ">See More</button>
+        <Link to='/service'><button className="btn bg-lime-400 text-white">See More</button></Link>
       </div>
     </div>
   </div>
