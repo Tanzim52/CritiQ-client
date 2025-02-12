@@ -57,7 +57,7 @@ export default function Service() {
         <Helmet>
           <title>CritiQ</title>
         </Helmet>
-        <h1 className="text-3xl font-semibold text-lime-700 my-4">
+        <h1 className="text-3xl font-semibold text-lime-700 my-4 mt-20">
           Best Services in Deals
         </h1>{" "}
       </div>
@@ -76,7 +76,7 @@ export default function Service() {
         <option>Cultural Goods</option>
         <option>Chemicals</option>
       </select>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-1 ml-9 md:ml-0 lg:ml-0 my-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-1 mx-auto md:ml-0 lg:ml-0 my-5">
         {service?.map((data) => (
           <ServiceCard key={data._id} data={data} />
         ))}
